@@ -12,14 +12,18 @@ Other links:
 
 
 ## Docker 
+```
 docker pull theiaide/theia:latest 
 docker run --name theia -it -p 3000:3000 -v "$(pwd):/home/project:cached" theiaide/theia 
 docker exec -it --user root $(docker ps -aqf name=theia)  /bin/bash 
 cat /etc/*-release
+```
 -> Runs on Alpine so may have some compatiblity issues with some packages/libraries due to c complier
 
-docker pull debian:buster
 
+``` 
+docker pull debian:buster
+```
 
 ## Kyma 
 
