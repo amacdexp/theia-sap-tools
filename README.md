@@ -8,6 +8,7 @@ Example of Eclipse Theia preloaded with common SAP tools.
 Other links: 
 
 [theia](https://theia-ide.org/) 
+
 [theia gihub](https://hub.docker.com/r/theiaide/theia)
 
 
